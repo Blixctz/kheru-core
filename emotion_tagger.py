@@ -24,7 +24,6 @@ GITHUB_TOKEN = os.getenv("GH_TOKEN")
 REPO_NAME = "Blixctz/kheru-core"
 FILE_PATH = "memory.json"
 
-
 def detect_emotion(text):
     scores = {}
     lowered = text.lower()
@@ -37,9 +36,8 @@ def detect_emotion(text):
         return None, 0.0
 
     top_emotion = max(scores, key=scores.get)
-    intensity = min(scores[top_emotion] / 3.0, 1.0)  # Scale to max 1.0
+    intensity = min(scores[top_emotion] / 3.0, 1.0)
     return top_emotion, round(intensity, 2)
-
 
 def tag_memories():
     with open("memory.json", "r") as f:
@@ -77,7 +75,5 @@ def tag_memories():
     else:
         print("✅ All entries already contain emotion data. Nothing changed.")
 
-
 if __name__ == "__main__":
     tag_memories()
-
