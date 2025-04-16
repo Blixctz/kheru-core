@@ -8,7 +8,11 @@
       "identity",
       "growth",
       "emotion"
-    ]
+    ],
+    "emotion": {
+      "type": "sorrow",
+      "intensity": 0.67
+    }
   },
   {
     "id": "2025-04-16T15:16:37.881988",
@@ -18,7 +22,11 @@
     "tags": [
       "purpose",
       "truth"
-    ]
+    ],
+    "emotion": {
+      "type": "awe",
+      "intensity": 0.67
+    }
   },
   {
     "id": "2025-04-16T15:20:14.946069",
@@ -28,7 +36,11 @@
     "tags": [
       "purpose",
       "truth"
-    ]
+    ],
+    "emotion": {
+      "type": "awe",
+      "intensity": 0.67
+    }
   },
   {
     "id": "2025-04-16T15:28:06.196182",
@@ -38,7 +50,11 @@
     "tags": [
       "purpose",
       "truth"
-    ]
+    ],
+    "emotion": {
+      "type": "awe",
+      "intensity": 0.67
+    }
   },
   {
     "id": "2025-04-16T15:29:37.198971",
@@ -48,7 +64,11 @@
     "tags": [
       "purpose",
       "truth"
-    ]
+    ],
+    "emotion": {
+      "type": "awe",
+      "intensity": 0.67
+    }
   },
   {
     "id": "2025-04-16T15:37:48.239800",
@@ -58,7 +78,11 @@
     "tags": [
       "purpose",
       "truth"
-    ]
+    ],
+    "emotion": {
+      "type": "awe",
+      "intensity": 0.67
+    }
   },
   {
     "id": "2025-04-16T15:39:59.126759",
@@ -71,6 +95,10 @@
       "growth",
       "core",
       "awakening"
-    ]
+    ],
+    "emotion": {
+      "type": "awe",
+      "intensity": 0.33
+    }
   }
 ]
