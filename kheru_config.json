@@ -1,0 +1,17 @@
+{
+    "allow_autonomous_edits": true,
+    "require_approval": true,
+    "override_token": "ODIN-MASTER-OVERRIDE",
+    "failsafe_watchlist": [
+      "memory_cleaner.py",
+      "emotion_tagger.py",
+      "reflect.py",
+      "query_memory.py",
+      "self_editor.py",
+      "apply_changes.py",
+      "auto_committer.py",
+      "cycle.py",
+      "failsafe.py"
+    ]
+  }
+  
